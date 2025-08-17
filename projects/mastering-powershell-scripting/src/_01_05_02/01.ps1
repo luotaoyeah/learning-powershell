@@ -1,3 +1,5 @@
+# 1.5.2 the Get-Help command
+
 # 使用快捷键 CTRL+SHIFT+f10 执行当前脚本文件
 
 Get-Help
