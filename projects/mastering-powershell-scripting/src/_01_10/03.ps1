@@ -1,6 +1,6 @@
 # 1.10 introduction to splatting
 
-# 可以将参数放在多个变量中,
+# 可以将多个参数放在多个变量中,
 
 $params01 = @{
     Name = "Get-Help"

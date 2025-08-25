@@ -3,7 +3,7 @@
 # 省略参数名 -Name
 Get-Process Code
 
-# 没有省略参数名 -Name
+# 指定参数名 -Name
 Get-Process -Name Code
 
 Read-Host

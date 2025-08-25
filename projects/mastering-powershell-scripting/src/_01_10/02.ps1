@@ -4,7 +4,7 @@
 
 # @{} 表示一个 hash table,
 # has-table 中多个字段之间没有逗号分隔,
-# has-table 中参数的值需要用双引号包裹,
+# has-table 中参数的值需要用双引号包裹(如果值是字符串),
 # switch parameter 的值需要设为 $true 或者 $false,
 
 $params = @{
@@ -12,6 +12,6 @@ $params = @{
     ShowWindow = $true
 }
 
-# 使用 @xxx 将参数传给命令,
+# 使用 @xxx 将参数传给命令, 注意这里不是引用变量, 因此没有使用 $ 符号,
 
 Get-Help @params
